@@ -12,16 +12,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Untitled/README.md",
-      "output": {
-        ".html": {
-          "relative_path": "Untitled/README.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
@@ -39,39 +29,6 @@
         },
         ".json": {
           "relative_path": "toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "~brucemark/funpi/getting-started.md",
-      "output": {
-        ".html": {
-          "relative_path": "~brucemark/funpi/getting-started.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "~brucemark/funpi/introduction.md",
-      "output": {
-        ".html": {
-          "relative_path": "~brucemark/funpi/introduction.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "~brucemark/funpi/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "~brucemark/funpi/toc.html"
-        },
-        ".json": {
-          "relative_path": "~brucemark/funpi/toc.json"
         }
       },
       "version": ""
