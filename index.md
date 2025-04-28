@@ -1,0 +1,30 @@
+---
+_layout: landing
+---
+
+## Quick Start Notes:
+
+# 🧰 Raspberry Pi Paddle/Stock Script Command Cheat Sheet
+
+| Command | What it does | Example |
+|:--|:--|:--|
+| `bash /home/pi/pickleball_monitor/run_paddle_scraper.sh` | 🏓 Runs the **paddle scraper** script. Looks for new USAPaddle approvals, updates your paddle log and dashboard. | `bash /home/pi/pickleball_monitor/run_paddle_scraper.sh` |
+| `bash /home/pi/pickleball_monitor/run_stock_scraper.sh` | 🛒 Runs the **stock scraper** script. Checks 11six24 paddle stock status, updates your stock log and dashboard. | `bash /home/pi/pickleball_monitor/run_stock_scraper.sh` |
+| `tail /home/pi/paddle_log.txt` | 📜 Shows the **last 10 lines** of the paddle scraper log file (check if script ran, if it found anything). | `tail /home/pi/paddle_log.txt` |
+| `tail /home/pi/stock_log.txt` | 📜 Shows the **last 10 lines** of the stock scraper log file. | `tail /home/pi/stock_log.txt` |
+| `tail -f /home/pi/paddle_log.txt` | 👀 **Live view**: "follow" paddle scraper logs as they happen (good for watching a script run). | `tail -f /home/pi/paddle_log.txt` |
+| `tail -f /home/pi/stock_log.txt` | 👀 **Live view**: "follow" stock scraper logs. | `tail -f /home/pi/stock_log.txt` |
+| `ps aux | grep python` | 🧠 Shows all **Python scripts currently running**. Good to check if a scraper is stuck or still active. | `ps aux | grep python` |
+| `source /home/pi/pickleball_monitor/venv/bin/activate` | 🛠️ **Manually activates your Python virtual environment** if you need to run scripts directly (normally you don't). | `source /home/pi/pickleball_monitor/venv/bin/activate` |
+| `python /home/pi/pickleball_monitor/paddle_scraper.py` | 🏓 Manually runs the **paddle scraper Python file** (only after activating the virtual environment). | `python /home/pi/pickleball_monitor/paddle_scraper.py` |
+| `python /home/pi/pickleball_monitor/stock_scraper.py` | 🛒 Manually runs the **stock scraper Python file** (only after activating the virtual environment). | `python /home/pi/pickleball_monitor/stock_scraper.py` |
+| `deactivate` | 🔌 **Deactivates** your virtual environment when you're done manually running scripts. | `deactivate` |
+
+# 🧹 Bonus Housekeeping Commands
+
+| Command | What it does | Example |
+|:--|:--|:--|
+| `wc -l /home/pi/stock_log.txt` | 📏 **Counts lines** in your stock log file (to monitor file size). | `wc -l /home/pi/stock_log.txt` |
+| `wc -l /home/pi/paddle_log.txt` | 📏 **Counts lines** in your paddle log file. | `wc -l /home/pi/paddle_log.txt` |
+| `df -h` | 💾 Shows **disk space usage** (make sure your Pi isn’t running out of space). | `df -h` |
+| `uptime` | 🕒 Shows **how long your Pi has been running** without a reboot. | `uptime` |

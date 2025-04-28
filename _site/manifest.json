@@ -1,0 +1,85 @@
+{
+  "source_base_path": "/Users/brucemark/funpi",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Untitled/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "Untitled/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "~brucemark/funpi/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "~brucemark/funpi/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "~brucemark/funpi/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "~brucemark/funpi/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "~brucemark/funpi/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "~brucemark/funpi/toc.html"
+        },
+        ".json": {
+          "relative_path": "~brucemark/funpi/toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
