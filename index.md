@@ -1,9 +1,3 @@
----
-_layout: landing
----
-
-## Quick Start Notes:
-
 # 🧰 Raspberry Pi Paddle/Stock Script Command Cheat Sheet
 
 | Command | What it does | Example |
